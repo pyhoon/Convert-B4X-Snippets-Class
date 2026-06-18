@@ -46,5 +46,5 @@ This script will remove the lines for us so we don't need to edit the files one 
 
 ## Assumption
 1. My Code Snippet starts from Class_Global sub so I need to remove the Initialize sub when applying the Code Snippet.
-2. If your Code Snippet doesn't have any variable declaration in the class then you can replace 'Sub Class_Globals' with '@EndOfDesignText@' in the script.
+2. If your Code Snippet doesn't have any variable declaration in the class then you can replace 'Sub Class_Globals' with 'Public Sub Initialize' in the script.
 3. If your Code Snippet is in the middle of code then you may need to replace the starting marker 'Sub Class_Globals' with something else in the script. I am not sure it works.
